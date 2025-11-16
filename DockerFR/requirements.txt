@@ -2,3 +2,9 @@ fastapi
 pydantic
 uvicorn[standard]
 python-multipart
+
+# 얼굴 인식 필수 패키지 (가벼운 버전)
+insightface[onnx]
+opencv-python-headless
+onnxruntime
+numpy
